@@ -1,3 +1,13 @@
+.navigation{
+    padding: 20px;
+}
 form,id {
     padding: 10px;;
+}
+#darkMode{
+    float: right;
+}
+.DarkMode{
+    background-color: black;
+    color: white;
 }

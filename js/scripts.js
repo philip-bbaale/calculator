@@ -45,5 +45,10 @@ var add = function(number1, number2) {
     var result = divide(number1,number2);
     $("#outputDivi").text(result);
   });
+
+  $("button#darkMode").click(function(){
+    var element = document.body;
+   element.classList.toggle("DarkMode");
+  });
   
  });
