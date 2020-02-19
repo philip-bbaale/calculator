@@ -37,5 +37,13 @@ var add = function(number1, number2) {
     var result = multiply(number1,number2);
     $("#outputMult").text(result);
   });
+
+  $("form#divide").submit(function(event){
+    event.preventDefault();
+    var number1 = parseInt($("#divi1").val());
+    var number2 = parseInt($("#divi2").val());
+    var result = divide(number1,number2);
+    $("#outputDivi").text(result);
+  });
   
  });
