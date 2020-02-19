@@ -9,10 +9,47 @@
   </head>
   <body>
     <h1>Calculator</h1>
-    <form id="add">
-      <div class="form-group"> <label for="add1">1st number:</label> <input id="add1" class="form-control" type="text"> </div>
-      <div class="form-group"> <label for="add2">2nd number:</label> <input id="add2" class="form-control" type="text"> </div>
-      <button type="submit" class="btn">Add!</button> 
-   </form>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form id="add">
+            <h3 bg-primary>Add.</h3>
+            <div class="form-group"> <label for="add1">1st number:</label> <input id="add1" class="form-control" type="text"> </div>
+            <div class="form-group"> <label for="add2">2nd number:</label> <input id="add2" class="form-control" type="text"> </div>
+            <button type="submitAdd" class="btn btn-outline-primary">Add!</button> 
+          </form>
+          <div id="output"> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <form id="subtract">
+            <h3 bg-primary>Subtract.</h3>
+            <div class="form-group"> <label for="sub1">1st number:</label> <input id="sub1" class="form-control" type="text"> </div>
+            <div class="form-group"> <label for="sub2">2nd number:</label> <input id="sub2" class="form-control" type="text"> </div>
+            <button type="button" class="btn btn-outline-secondary">Subtract!</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <form id="multiply">
+            <h3 bg-primary>Multiply.</h3>
+            <div class="form-group"> <label for="mult1">1st number:</label> <input id="mult1" class="form-control" type="text"> </div>
+            <div class="form-group"> <label for="mult2">2nd number:</label> <input id="mult2" class="form-control" type="text"> </div>
+            <button type="button" class="btn btn-outline-success">Multiply!</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <form id="divide">
+            <h3 bg-primary>Divide.</h3>
+            <div class="form-group"> <label for="divi1">1st number:</label> <input id="divi1" class="form-control" type="text"> </div>
+            <div class="form-group"> <label for="divi2">2nd number:</label> <input id="divi2" class="form-control" type="text"> </div>
+            <button type="button" class="btn btn-outline-warning">Divide!</button>
+          </form>
+        </div>
+    </div>
   </body>
 </html>
